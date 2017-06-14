@@ -1,0 +1,25 @@
+html, body, h1, h2, h3, h4, h5, h6, input, textarea, button { font-family: 'Press Start 2P', cursive !important; }
+body { background: #FFF; }
+
+
+#root { background: url("images/bg-pokedex.png") no-repeat; background-size: contain; height: 875px; margin-top: 100px; }
+
+.box-select { background: #fff; border: 3px solid #666; border-radius: 25px; height: 260px; margin-left: 15.7%; margin-top: 45.7%; overflow-x: hidden; overflow-y: auto; width: 68.5%; }
+.box-select h3 { height: 100px; }
+.box-select img { margin-top: 15px; }
+
+.box-insert { margin-left: 19.4%; margin-top: 52%; width: 68.5%; }
+.box-insert h5 { color: #FFF; left: -90px; text-align: right; position: absolute; top: -30px; }
+.box-insert input,
+.box-insert textarea { background: none; border: none; border-bottom: 2px solid #000; color: #FFF; width: 100%; }
+.box-insert textarea { height: 120px !important; resize: none; }
+.box-insert input { margin-bottom: 11px; padding-bottom: 5px; }
+.box-insert button { background: none; border: none; font-size: 11px; margin-top: 88px; padding: 21px 5px; }
+
+.box-view { background: #FFF; height: 230px; top: 373px;  left: 476px; position: fixed; text-transform: uppercase; width: 355px; z-index: 999; }
+
+.btn-hidden-viewer { top: 200px; }
+
+.box-btns-view { position: relative; }
+
+.box-preview-image { background: #FFF; border: 3px solid #333; border-radius: 100px; height: 200px; position: absolute; top: -260px; padding: 20px; width: 100%; }
